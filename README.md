@@ -9,4 +9,9 @@ ssh-copy-id user@host
 # How to see detailed information about a given PID?
 ps -Flww -p THE_PID
 
+# Grand sudo privileges to user
+sudo usermod -a -G sudo username
+
+# Remove sudo privileges from user
+sudo deluser username sudo
 ```
