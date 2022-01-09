@@ -14,4 +14,8 @@ sudo usermod -a -G sudo username
 
 # Remove sudo privileges from user
 sudo deluser username sudo
+
+# Recursively change access permission
+chmod -R ug+rw foldername
+
 ```
