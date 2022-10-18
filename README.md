@@ -19,3 +19,8 @@ sudo deluser username sudo
 chmod -R ug+rw foldername
 
 ```
+
+### Check all python processes
+```
+ps -ef | grep python
+```
