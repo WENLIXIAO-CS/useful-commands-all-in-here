@@ -24,3 +24,10 @@ chmod -R ug+rw foldername
 ```
 ps -ef | grep python
 ```
+
+## git
+
+### remove cache
+```
+git rm -r --cached .
+```
