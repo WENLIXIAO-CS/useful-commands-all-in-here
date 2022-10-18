@@ -31,3 +31,12 @@ ps -ef | grep python
 ```
 git rm -r --cached .
 ```
+
+## Jupyter Notebook
+
+### Auto Reload
+```
+%load_ext autoreload
+%autoreload 2
+```
+
