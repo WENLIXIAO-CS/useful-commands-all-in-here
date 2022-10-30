@@ -29,7 +29,7 @@ ps -ef | grep python
 
 ### Add server's ssh key to github
 ```
-ssh-keygen -t ed25519 -C "randyxiao64@gmail.com"
+ssh-keygen -t ed25519 -C "randyxiao@email.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
